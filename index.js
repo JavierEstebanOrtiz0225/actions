@@ -5,7 +5,7 @@ let heaaders ={ "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,
                 "Connection":	"keep-alive",
                 "Host"	:"api.github.com",
                 "Upgrade-Insecure-Requests":	1}
-
+console.log(process.env.COMMITS);
 axios.get(process.env.COMMITS,{headers:heaaders})
 .then(data=>{console.log(data.data);})
 .catch(err=>{console.log(err);})
