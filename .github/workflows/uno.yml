@@ -6,5 +6,4 @@ jobs:
     runs-on: ubuntu
     steps:
     - name: Mensaje
-    - run: |
-      echo "hola"
+    - run: echo "hola"
