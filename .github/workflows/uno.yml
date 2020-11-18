@@ -1,7 +1,7 @@
 name: Uno
 on:
   pull_request_review:
-    types: [edited]
+    types: [submitted]
 
 jobs:
   setup:
