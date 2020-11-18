@@ -1,0 +1,9 @@
+name: Cuarentanueve
+on: push
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mensaje
+      run: echo "1"
