@@ -5,6 +5,12 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-    - name: Mensaje
-    
-      run: echo "1"
+    - uses: actions/checkout@v2
+    - name: Node
+
+    - uses: actions/setup-node@v2
+
+    - name: Run
+      run: node index.js
+      env: 
+        GITHUB: ${{ toJson(github) }}
