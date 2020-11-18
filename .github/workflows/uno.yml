@@ -12,5 +12,5 @@ jobs:
     - name: Run
       run: node index.js
       env: 
-        GITHUB: ${{ toJson(github) }}
+        GITHUB: ${{ toJson(github.event) }}
 

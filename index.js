@@ -1,1 +1,1 @@
-console.log(Object.keys(process.env.GITGUB));
+console.log(process.env.GITGU));
