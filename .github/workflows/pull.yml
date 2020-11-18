@@ -1,5 +1,5 @@
 name: Catorce
-on: [pull_request_review]
+on: push
 
 jobs:
   setup:
