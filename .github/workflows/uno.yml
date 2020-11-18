@@ -1,7 +1,7 @@
 name: Uno
 on:
   pull_request_target:
-    types: [assigned]
+    types: [review_requested ]
 
 jobs:
   setup:
