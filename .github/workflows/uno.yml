@@ -1,0 +1,10 @@
+name: Uno
+on: push
+
+jobs:
+  setup:
+    runs-on: ubuntu
+    steps:
+    - name: Mensaje
+    - run: |
+      echo "hola"
