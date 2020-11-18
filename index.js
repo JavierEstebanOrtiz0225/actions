@@ -1,1 +1,1 @@
-console.log(process.env.GITGU));
+console.log(process.env.GITGUB);
