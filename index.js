@@ -1,1 +1,1 @@
-console.log(process.env.GITGUB.event);
+console.log(Object.keys(process.env.GITGUB));
