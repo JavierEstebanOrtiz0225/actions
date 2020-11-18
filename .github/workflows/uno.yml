@@ -3,7 +3,7 @@ on: push
 
 jobs:
   setup:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
     - name: Mensaje
       run: echo "hola"
