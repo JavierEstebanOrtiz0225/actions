@@ -1,0 +1,10 @@
+name: Catorce
+on: [pull_request_review]
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Mensaje
+      run: echo "1"
