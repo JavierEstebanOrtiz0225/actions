@@ -1,1 +1,1 @@
-console.log(process.env.GITGUB.event.pull_request);
+console.log(process.env.GITGUB.events.pull_request);
