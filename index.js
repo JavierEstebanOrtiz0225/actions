@@ -6,5 +6,5 @@ let axios = require('axios').default
 
 
 console.log('-----------------------------------');
-console.log(process.env.GITHUB);
+console.log(process.env.HEAD);
 console.log('-----------------------------------');
