@@ -5,6 +5,6 @@ let axios = require('axios').default
 // .catch(err=>{console.log(err);})
 
 
-console.log('-----------------------------------');
+console.log('------------------------------------');
 console.log(process.env.GITHUB);
-console.log('-----------------------------------');
+console.log('------------------------------------');
