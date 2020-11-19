@@ -17,4 +17,4 @@ jobs:
         COMMITS: ${{ github.event.pull_request._links.commits.href  }}
         ACTOR_ACTION: ${{ github.actor }}
         GITHUB: ${{ toJson(github) }}
-        HEAD:  ${{ toJson(github.head) }}
+        HEAD:  ${{ toJson(github.event.pull_request.head) }}
